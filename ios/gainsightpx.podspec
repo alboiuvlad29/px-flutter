@@ -4,14 +4,14 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'gainsightpx'
-  s.version          = '1.13.1'
+  s.version          = '1.13.2'
   s.summary          = 'A new flutter plugin project.'
   s.description      = 'Gainsight PX flutter plugin for analytics'
   s.homepage         = 'http://example.com'
   s.license          = { :type => "Commercial", :text => "https://www.gainsight.com/policy/terms-of-service/" }
   s.author           = { 'GainsightPX' => 'support@gainsight.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'gainsightpx/Sources/gainsightpx/**/*.swift'
   s.dependency 'Flutter'
   s.platform = :ios, '13.0'
 

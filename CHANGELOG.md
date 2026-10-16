@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.13.2
+
+- Added Swift Package Manager support.
+
 ## 1.13.1
 
 - Removed Android deprecated V1 APIs.
